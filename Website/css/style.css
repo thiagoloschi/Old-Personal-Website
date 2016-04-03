@@ -1,0 +1,151 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 3%;
+}
+
+#fst{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#navi{
+	padding: 1%;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+#home{
+	background-image: url(../imagens/banner.png); 
+	background-position: fixed;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	background-color:#464646;
+	height: 600px;
+	margin: -1% 0;
+	opacity: 0.9;
+}
+
+#overlay{
+	height: 600px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
+#titulo{
+	text-shadow: 3px 5px 12px 0px rgba(50,50,50,0.75);
+	margin-top: 250px;
+	text-align: center;
+	font-size: 80px;
+	color: white;
+}
+
+#subtitulo{
+	text-align: center;
+	margin: auto;
+	padding-left: 400px`;
+	font-size: 30px;
+	color: white;
+}
+
+#sobre{
+	padding: 90px 0;
+}
+
+#texto{
+	margin-top: 5%;  
+	text-align: center;
+}
+
+/*#texto h5 i{
+	font-size: 22px;
+	margin-right: 20px;
+}*/
+
+#fotos{
+	text-align: center;
+	margin: 2px auto;
+}
+
+#fotos img{
+	margin: auto; 
+	border-radius: 100%;
+	box-shadow: 1px 3px 15px 0px rgba(134, 134, 134, 0.3);
+}
+
+#curriculum a{
+	padding: 1%;
+	margin: auto;
+	width: 130px;
+	clear: both;
+	text-align: center;
+	border: solid 1px #bdbdbd;
+	color: black;
+	background-color: white;
+	border-radius: 10%;
+	text-decoration: none;
+	display: block;
+	box-shadow: 1px 2px 8px 0px rgba(150, 150, 150, 0.2);
+}
+
+#curriculum a:visited{
+	color: black;
+}
+
+#curriculum a:hover{
+	color: white;
+	background-color: #31B404;
+	border-color: #31B404;
+}
+
+.page-header{
+	padding: 0 1% ;
+}
+
+#icons{
+	margin: auto;
+	text-align: center;
+}
+
+#icons img{
+	height: 30px;
+	width: 30px;
+}
+
+#icons ul li{
+	display: inline-block;
+	margin: 2% 2% 1% 2%;
+}
+
+#icons ul li i{
+	padding-top: 7px;
+	font-size: 20px;
+	color: black;
+}
+
+#icons ul li i:hover{
+	color: white;
+}
+
+#icons ul{
+	padding: 0;
+	margin: 0;
+}
+
+#contact{
+	clear: both;
+}
+
+#contato{
+	font-size: 12px;
+	background-color: #bdbdbd; 
+}
+
+#icons{
+	padding: 0 0 1% 0;
+}
+
+#contato p{
+	padding-top: 14px;
+	text-align: center;
+}
+
+
