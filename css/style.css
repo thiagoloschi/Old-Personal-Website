@@ -15,7 +15,8 @@ body{
 
 #home{
 	background-image: url(../imagens/banner.png); 
-	background-position: fixed;
+	background-position: center center;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
  	background-size: cover;
 	background-color:#464646;
@@ -38,34 +39,22 @@ body{
 	color: white;
 }
 
-#subtitulo{
-	text-align: center;
-	margin: auto;
-	padding-left: 400px`;
-	font-size: 30px;
-	color: white;
-}
-
 #sobre{
 	padding: 90px 0;
 }
 
 #texto{
-	margin-top: 5%;  
+	font-size: 19px;
+	margin-top: 3px; 
 	text-align: center;
 }
 
-/*#texto h5 i{
-	font-size: 22px;
-	margin-right: 20px;
-}*/
-
-#fotos{
+#pict{
 	text-align: center;
 	margin: 2px auto;
 }
 
-#fotos img{
+#pict img{
 	margin: auto; 
 	border-radius: 100%;
 	box-shadow: 1px 3px 15px 0px rgba(134, 134, 134, 0.3);
@@ -134,7 +123,7 @@ body{
 	clear: both;
 }
 
-#contato{
+#footer{
 	font-size: 12px;
 	background-color: #bdbdbd; 
 }
@@ -143,7 +132,7 @@ body{
 	padding: 0 0 1% 0;
 }
 
-#contato p{
+#footer p{
 	padding-top: 14px;
 	text-align: center;
 }
