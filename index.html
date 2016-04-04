@@ -35,7 +35,7 @@
           <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#sobre">About</a></li>
-            <li><a href="#contato">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -47,7 +47,7 @@
          <div class="container">
             <div class="row">
   	 		      <div id="titulo">
-                <h1>Hi, I'm Thiago Loschi, front-end web developer.</h1>
+                <h1>Hi, I'm Thiago Loschi and I'm a front-end web developer.</h1>
               </div>
 	         </div>
           </div> 
@@ -64,6 +64,7 @@
              <img src="imagens/prof.jpg" alt="Second slide" height="240" width="240"> 
           </div>
       </div>
+
       <div class="row"> 		
        		<div id="texto"> 
             </br>
@@ -72,25 +73,48 @@
   	        <p>I am <strong>Thiago Sandim Loschi de Oliveira</strong>, a Brazilian student on an exchange program in the US, which has been an outstanding opportunity to my career and also personal growth. Dedicated and mature professional, committed, responsible and with great communication skills. Looking for a challenging and inspiring position that would allow me to be creative, active, and a problem solver.
             </p>
             <br/><br/>
+            <button id="curriculo" class="btn btn-md btn-branco "><i class="fa fa-file-pdf-o"></i> Download CV</button>
+
             </div>
-            <div id="curriculum">
+           
+            <!-- <button class="btn">Download CV</button> 
+             <div id="curriculum">
               <a href="files/cv1.pdf">
                 <strong>Download CV</strong>
               </a>
             </div>
-            <!-- <button class="btn">Download CV</button> -->
+            -->
      
-            <br/>
+   
           </div>
       </div>
 
-    </div>
+      </div>
     </div>
 
-    <section>
-      
-    </section>
+    <section id="ending">
 
+      <div id="contact" class="row">
+        <h2 align="center">Get in touch!</h2>
+        <div class="container">
+          <div id="contato">
+            <form action="https://formspree.io/thiagoloschi@gmail.com" method="POST">
+              <div class="input-field col s12">
+                <input class="inpt" type="text" name="name" placeholder="Your name *" required>
+              </div>
+              <div class="input-field col s12">
+                <input class="inpt" type="email" name="_replyto" placeholder="Your email *"  required>
+              </div>
+              <div class="input-field col s12">
+                <textarea class="inpt" name="message" rows="3" placeholder="Your message"  required></textarea>
+              </div>
+              <div class="col s12"><button id="enviar" class="btn btn-lg btn-branco" type="submit" value="Send">Send</i></button></div>
+            </form>
+          </div>
+        </div>  
+      </div>
+
+    
 
  
     <footer id="footer">
@@ -115,6 +139,7 @@
       </div>  
     </footer>
 
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

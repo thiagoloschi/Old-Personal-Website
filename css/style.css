@@ -60,29 +60,42 @@ body{
 	box-shadow: 1px 3px 15px 0px rgba(134, 134, 134, 0.3);
 }
 
-#curriculum a{
-	padding: 1%;
+#curriculo{
 	margin: auto;
-	width: 130px;
-	clear: both;
-	text-align: center;
-	border: solid 1px #bdbdbd;
-	color: black;
-	background-color: white;
-	border-radius: 10%;
-	text-decoration: none;
-	display: block;
-	box-shadow: 1px 2px 8px 0px rgba(150, 150, 150, 0.2);
 }
 
-#curriculum a:visited{
-	color: black;
+.btn-branco {
+    color: #fff;
+    background-color: #333;
+    border-color: #ccc;
 }
 
-#curriculum a:hover{
+.btn-branco i{
+	margin-right: 3px;
+}
+
+.btn-branco:hover{
 	color: white;
-	background-color: #31B404;
-	border-color: #31B404;
+	background-color: #444;
+}
+
+
+
+#contact{
+	height: 400px;
+	color: white;
+	margin: auto;
+}
+
+#contato{
+	text-align: center;
+	padding: 40px;
+}
+
+#ending{
+    background: linear-gradient(110deg, #444 3e0%, #888 59%, #444 75%);
+    color: white;
+    opacity: 0.95;	
 }
 
 .page-header{
@@ -107,11 +120,11 @@ body{
 #icons ul li i{
 	padding-top: 7px;
 	font-size: 20px;
-	color: black;
+	color: white;
 }
 
 #icons ul li i:hover{
-	color: white;
+	color: black;
 }
 
 #icons ul{
@@ -123,9 +136,35 @@ body{
 	clear: both;
 }
 
+.input-field{
+	position: relative;
+	margin: auto;
+}
+
+.inpt{
+	width: 350px;
+	margin: 15px;
+	opacity: 0.9;
+	border: none; 	
+	background-color: transparent;
+	padding: 10px; 
+	background: rgba(0,0,0,0.3);
+	border-radius: 6px;
+}
+
+.inpt:focus{
+	border: 3px solid #fff; 	
+}
+
+#enviar{
+	margin: 20px 0;
+	padding: 0 60px;
+}
+
 #footer{
+	padding-top: 40px;
 	font-size: 12px;
-	background-color: #bdbdbd; 
+	/*background-color: #bdbdbd; */
 }
 
 #icons{
