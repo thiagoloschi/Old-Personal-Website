@@ -1,51 +1,62 @@
 body{
-	font-family: 'Roboto', sans-serif;
-	padding-bottom: 3%;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 2px;
+	width: 100%;
+	margin: 0;
 }
 
 #fst{
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
-#navi{
-	padding: 1%;
-	margin-bottom: 0;
-	font-size: 20px;
+nav{
+
 }
 
 #home{
-	background-image: url(../imagens/banner.png); 
-	background-position: center center;
+	background-image: url(../imagens/banner.png);
+	background-position: bottom;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
  	background-size: cover;
 	background-color:#464646;
-	height: 600px;
-	margin: -1% 0;
+	height: 650px;
 	opacity: 0.9;
 }
 
+.row{
+	margin: 0;
+}
+
 #overlay{
-	height: 600px;
+	height: 100%;
 	width: 100%;
 	background: rgba(0,0,0,0.4);
 }
 
 #titulo{
-	text-shadow: 3px 5px 12px 0px rgba(50,50,50,0.75);
-	margin-top: 250px;
+	margin-top: 222px;
 	text-align: center;
-	font-size: 80px;
-	color: white;
+	color: #333;
+	background-color: rgba(225,225,225,0.5);
+	width: 100%;
+	font-weight: bold;
+	padding: 4% 0;
+}
+
+div#titulo {
+	width: 100%;
 }
 
 #sobre{
-	padding: 90px 0;
+	padding: 40px 0;
 }
 
 #texto{
+	font-family: 'Roboto';
+	letter-spacing: normal;
 	font-size: 19px;
-	margin-top: 3px; 
+	margin-top: 3px;
 	text-align: center;
 }
 
@@ -55,7 +66,7 @@ body{
 }
 
 #pict img{
-	margin: auto; 
+	margin: auto;
 	border-radius: 100%;
 	box-shadow: 1px 3px 15px 0px rgba(134, 134, 134, 0.3);
 }
@@ -91,27 +102,28 @@ body{
 }
 
 #contact{
-	height: 400px;
+	/* height: 400px; */
 	color: white;
 	margin: auto;
-	
 }
 
 #contato{
 	text-align: center;
-	margin: auto;
+	/* margin: auto; */
 	width: 100%;
+	padding: 0 15%;
 }
+
 
 #ending{
-    background: linear-gradient(110deg, #555 30%, #999 59%, #555 75%);
+    background: linear-gradient(0deg, #777 0%, #999 20%, #666 59%);
     color: white;
-    opacity: 0.95;
-    margin: auto;
 }
 
-h2{
+h3{
+	letter-spacing: 3px;
 	margin: 40px 0;
+	font-weight: bold;
 }
 
 .page-header{
@@ -135,7 +147,7 @@ h2{
 
 #icons ul li i{
 	padding-top: 7px;
-	font-size: 20px;
+	font-size: 26px;
 	color: white;
 }
 
@@ -153,18 +165,18 @@ h2{
 }
 
 .inpt{
-	width: 60%;
-	margin: 15px;
+	width: 100%;
+	margin: 15px 0;
 	opacity: 0.9;
-	border: none; 	
+	border: none;
 	background-color: transparent;
-	padding: 12px; 
+	padding: 12px;
 	background: rgba(180,180,180,0.4);
 	border-radius: 6px;
 }
 
 .inpt:focus{
-	border: 3px solid #fff; 	
+	border: 3px solid #fff;
 }
 
 #enviar{
@@ -174,9 +186,7 @@ h2{
 
 #footer{
 	margin: 20px 0;
-	padding-top: 40px;
 	font-size: 12px;
-	/*background-color: #bdbdbd; */
 }
 
 #icons{
@@ -184,8 +194,9 @@ h2{
 }
 
 #footer p{
-	padding-top: 14px;
+	font-family: 'open sans';
+	padding-top: 20px;
+	font-size: 13px;
+	letter-spacing: 4px;
 	text-align: center;
 }
-
-

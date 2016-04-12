@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Thiago Sandim Loschi de Oliveira">
-    
+
     <title>Thiago Loschi</title>
     <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
     <link rel="icon" href="imagens/thiago.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
 
 </head>
 <body role="document">
@@ -41,37 +43,37 @@
       </div>
     </nav>
 
-      
+
 	   <div id="home">
         <div id="overlay">
-         <div class="container">
+         <div class="zoomIn animated">
             <div class="row">
   	 		      <div id="titulo">
-                <h1>Hi, I'm Thiago Loschi and I'm a front-end web developer.</h1>
+                <h1><strong>Hi, I'm Thiago Loschi and I'm a front-end web developer.</strong></h1>
               </div>
 	         </div>
-          </div> 
+          </div>
         </div>
       </div>
 
-    
+
 
     <div id="sobre">
       <div class="container">
 
-      <div class="row">  
+      <div class="row">
           <div id="pict">
-             <img class="img-responsive center-block" src="imagens/prof.jpg" alt="Second slide" height="240" width="240"> 
+             <img class="img-responsive center-block zoomIn animated" src="imagens/prof.jpg" alt="Second slide" height="180" width="180">
           </div>
       </div>
 
-      <div class="row"> 		
-       		<div id="texto"> 
-            
-         		<h2 align="center">Lets work together?</h2>
-    	      
+      <div class="row">
+       		<div id="texto">
+
+         		<h3 class="slideInLeft animated" align="center">LET'S WORK TOGETHER?</h3>
+
             <div class="container">
-    	        <p>I am <strong>Thiago Sandim Loschi de Oliveira</strong>, a Brazilian student on an exchange program in the US, which has been an outstanding opportunity to my career and also personal growth. Dedicated and mature professional, committed, responsible and with great communication skills. Looking for a challenging and inspiring position that would allow me to be creative, active, and a problem solver.
+    	        <p class="slideInRight animated">I am <strong>Thiago Sandim Loschi de Oliveira</strong>, a Brazilian student on an exchange program in the US, which has been an outstanding opportunity to my career and also personal growth. Dedicated and mature professional, committed, responsible and with great communication skills. Looking for a challenging and inspiring position that would allow me to be creative, active, and a problem solver.
               </p>
             </div>
             <br/><br/>
@@ -79,29 +81,29 @@
               <button id="curriculo" class="btn btn-lg btn-branco "><i class="fa fa-file-pdf-o"></i> Download CV</button>
             </form>
             </div>
-           
-            <!-- <button class="btn">Download CV</button> 
+
+            <!-- <button class="btn">Download CV</button>
              <div id="curriculum">
               <a href="files/cv1.pdf">
                 <strong>Download CV</strong>
               </a>
             </div>
             -->
-     
-   
+
+
           </div>
       </div>
 
       </div>
     </div>
 
-    
+
     <section id="ending">
     <div id="overlay">
       <div class="container">
         <div id="contact" class="row">
 
-          <h2 align="center">Get in touch!</h2>
+          <h3 align="center">GET IN TOUCH!</h3>
           <div class="container">
             <div id="contato">
               <form action="https://formspree.io/thiagoloschi@gmail.com" method="POST">
@@ -114,23 +116,24 @@
                 <div class="input-field col s12">
                   <textarea class="inpt" name="message*" rows="3" placeholder="Your message"  requirede></textarea>
                 </div>
-                <div class="input-field col s12"><button id="enviar" class="btn btn-lg btn-branco" type="submit" value="Send">Send</i></button></div>
+                <div class="input-field col s12">
+					<button id="enviar" class="btn btn-lg btn-branco" type="submit" value="Send">Send</i></button></div>
               </form>
             </div>
           </div>
-        </div>  
-      
-      
-      
+        </div>
 
-    
 
- 
+
+
+
+
+
     <footer id="footer">
       <div class="container">
         <div class="row">
           <div id="emailTel" class="col-md-4">
-              <p>thiagoloschi@gmail.com - (510) 634-9673</p>
+              <p>© Thiago Loschi</p>
           </div>
       		<div id="icons" class="col-md-4">
         			<ul>
@@ -142,16 +145,16 @@
         			</ul>
         	</div>
           <div id="registrada" class="col-md-4">
-            <p>Thiago Loschi ®</p>
+            <p>thiagoloschi@gmail.com</p>
           </div>
         </div>
-      </div>  
+      </div>
     </footer>
     </div>
     </div>
 
     </section>
-    
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -160,5 +163,3 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
-
-
