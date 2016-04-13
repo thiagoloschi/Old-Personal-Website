@@ -17,6 +17,8 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/buttons.css" />
+
 
 </head>
 <body role="document">
@@ -46,9 +48,9 @@
 
 	   <div id="home">
         <div id="overlay">
-         <div class="zoomIn animated">
+         <div >
             <div class="row">
-  	 		      <div id="titulo">
+  	 		      <div class="wow bounceInDown" data-wow-duration="2s" id="titulo">
                 <h1><strong>Hi, I'm Thiago Loschi and I'm a front-end web developer.</strong></h1>
               </div>
 	         </div>
@@ -56,30 +58,31 @@
         </div>
       </div>
 
-
+  <section class="wow" data-wow-duration="4s" >
 
     <div id="sobre">
       <div class="container">
 
       <div class="row">
           <div id="pict">
-             <img class="img-responsive center-block zoomIn animated" src="imagens/prof.jpg" alt="Second slide" height="180" width="180">
+             <img class="img-responsive center-block wow zoomIn" data-wow-duration="4s" animation-delay="4es" src="imagens/prof.jpg" alt="Second slide" height="160" width="160">
           </div>
       </div>
 
       <div class="row">
        		<div id="texto">
 
-         		<h3 class="slideInLeft animated" align="center">LET'S WORK TOGETHER?</h3>
+         		<h3 class="wow slideInLeft" align="center">LET'S WORK TOGETHER?</h3>
 
             <div class="container">
-    	        <p class="slideInRight animated">I am <strong>Thiago Sandim Loschi de Oliveira</strong>, a Brazilian student on an exchange program in the US, which has been an outstanding opportunity to my career and also personal growth. Dedicated and mature professional, committed, responsible and with great communication skills. Looking for a challenging and inspiring position that would allow me to be creative, active, and a problem solver.
+    	        <p class="wow slideInRight">I am <strong>Thiago Sandim Loschi de Oliveira</strong>, a Brazilian student on an exchange program in the US, which has been an outstanding opportunity to my career and also personal growth. Dedicated and mature professional, committed, responsible and with great communication skills. Looking for a challenging and inspiring position that would allow me to be creative, active, and a problem solver.
               </p>
             </div>
             <br/><br/>
             <form action="files/cv1.pdf">
-              <button id="curriculo" class="btn btn-lg btn-branco "><i class="fa fa-file-pdf-o"></i> Download CV</button>
-            </form>
+              <button class="btn btn-lg btn-branco "><i class="fa fa-file-pdf-o"></i> Download CV</button>
+
+			</form>
             </div>
 
             <!-- <button class="btn">Download CV</button>
@@ -96,6 +99,8 @@
 
       </div>
     </div>
+	</section>
+
 
 
     <section id="ending">
@@ -114,11 +119,14 @@
                   <input class="inpt" type="email" name="_replyto" placeholder="Your email *"  required>
                 </div>
                 <div class="input-field col s12">
-                  <textarea class="inpt" name="message*" rows="3" placeholder="Your message"  requirede></textarea>
+                  <textarea class="inpt" name="message" rows="3" placeholder="Your message*" required></textarea>
                 </div>
                 <div class="input-field col s12">
-					<button id="enviar" class="btn btn-lg btn-branco" type="submit" value="Send">Send</i></button></div>
-              </form>
+					<button id="enviar" class="btn btn-lg btn-branco" type="submit" value="Send">Send</i></button>
+					<!--<button class="btn btn-3 btn-3e icon-envelope">Send</button>-->
+				</div>
+
+			  </form>
             </div>
           </div>
         </div>
@@ -155,11 +163,29 @@
 
     </section>
 
-
+	<script src="js/wow.js"></script>
+	<script src="js/classie.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
 </body>
 </html>
